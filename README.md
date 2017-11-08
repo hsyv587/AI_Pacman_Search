@@ -1,6 +1,6 @@
 # AI_Pacman_Search
-File documentation:
-    all search agents are implemented in the file "pacmanAgent.py", which includes these search algorithms:
+all search agents are implemented in the file "pacmanAgent.py"
+# Searching Algorithms:
         RandomSequenceAgent
         RandomAgent
         GreedyAgent
@@ -10,4 +10,5 @@ File documentation:
         HillClimberAgent
         GeneticAgent
         MCTSAgent
-    to run the game, just run "python pacman.py -p XXXAgent" with python 2.X
+# Run 
+to run the game, just run "python pacman.py -p XXXAgent" with python 2.X
