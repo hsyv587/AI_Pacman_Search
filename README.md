@@ -11,4 +11,4 @@ all search agents are implemented in the file "pacmanAgent.py"
         GeneticAgent
         MCTSAgent
 # Run 
-to run the game, just run "python pacman.py -p XXXAgent" with python 2.X
+to run the game, just run "python pacman.py -p XXXAgent" with python 2.X in your command line
