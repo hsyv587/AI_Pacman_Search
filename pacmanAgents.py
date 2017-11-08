@@ -155,9 +155,9 @@ class AStarAgent(Agent):
         # TODO: write A* Algorithm instead of returning Directions.STOP
         legal = state.getLegalPacmanActions()
         action_list = [(state.generatePacmanSuccessor(action), 1, action) for action in legal]
-        for i in action_list:
-            if i[0].isWin():
-                return i[2] 
+        for action in action_list:
+            if action[0].isWin():
+                return action[2] 
         root_score = scoreEvaluation(state)
         stack = action_list[:]
         while stack:
